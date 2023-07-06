@@ -6,6 +6,7 @@
 </head>
 <body>
     <?php 
+    
        
         if(!isset($_GET['vista']) || $_GET['vista']==""){
             $_GET['vista']="login";
