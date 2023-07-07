@@ -5,7 +5,6 @@
 <link rel="stylesheet" href="./css/bulma.min.css">
 <link rel="stylesheet" href="./css/estilos.css">
 <link rel="shortcut icon" href="./img/cpu_png.ico">
-<script type="text/javascript" src="instascan.min.js"></script>
 
 <script>
   function uppercase(obj){
