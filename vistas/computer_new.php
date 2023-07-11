@@ -179,6 +179,7 @@
                     <select name="unidad" class="input is-small has-text-centered">
                         <option value="H.G.S.Z. N°38">H.G.S.Z. N°38</option>
                         <option value="O.T.A. S.J.C.">O.T.A. S.J.C.</option>                        
+                        <option value="O.T.A. S.J.C.">Sub Delegacion, La Paz</option>
                     </select>
                 </p>
                 </div>
