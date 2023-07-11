@@ -180,7 +180,7 @@
 				<div class="field-body">
 					<div class="field">
 					<p class="control">
-					<input class="input is-small has-text-centered"  type="text" name="nodo" value="<?php echo $datos['nodo']?>" pattern="[A-Z 0-9/*-+]{0,9}" maxlength="9" oninput="this.value = this.value.toUpperCase()">
+					<input class="input is-small has-text-centered"  type="text" name="nodo" value="<?php echo $datos['nodo']?>" pattern="[A-Z 0-9/*-+]{0,11}" maxlength="11" oninput="this.value = this.value.toUpperCase()">
 					</p>
 					</div>
 				</div>
