@@ -85,7 +85,7 @@
 				<div class="field-body">
 					<div class="field">
 					<p class="control">
-					<input class="input is-small has-text-centered"  type="text" name="usuario" pattern="[A-Z 0-9/*-+]{0,20}" maxlength="20" oninput="this.value = this.value.toLowerCase()">
+					<input class="input is-small has-text-centered"  type="text" name="usuario" pattern="[A-Z 0-9/*-+.]{0,20}" maxlength="20" oninput="this.value = this.value.toLowerCase()">
 					</p>
 					</div>
 				</div>
