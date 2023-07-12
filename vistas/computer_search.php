@@ -38,7 +38,7 @@
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $buscar = isset($_POST['buscar']) ? limpiar_cadena($_POST['buscar']) : '';
         $tabla = "";
-        $consulta_datos = "SELECT * FROM inventario WHERE serie LIKE '%$buscar%' OR prei LIKE '%$buscar%' OR nni LIKE '%$buscar%' OR usuario LIKE '%$buscar%' OR ip LIKE '%$buscar%' OR area LIKE '%$buscar%' OR departamento LIKE '%$buscar%'";
+        $consulta_datos = "SELECT * FROM inventario WHERE serie LIKE '%$buscar%' OR prei LIKE '%$buscar%' OR nni LIKE '%$buscar%' OR usuario LIKE '%$buscar%' OR ip LIKE '%$buscar%' OR area LIKE '%$buscar%' OR departamento LIKE '%$buscar%' OR unidad LIKE '%$buscar%'";
         $resultados = conexion()->query($consulta_datos)->fetchAll(PDO::FETCH_ASSOC);
         if (count($resultados) > 0) {
             $tabla = '
