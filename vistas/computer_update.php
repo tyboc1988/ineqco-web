@@ -71,7 +71,7 @@
 
         <div class="field is-horizontal">
             <div class="field-label is-normal">
-                <label class="label">NOMBRE DEL EQUIPO:</label>
+                <label class="label">N. EQUIPO:</label>
             </div>
             <div class="field-body">
                 <div class="field">
@@ -84,12 +84,12 @@
 
 		<div class="field is-horizontal">
 			<div class="field-label is-normal">
-				<label class="label">USUARIO:</label>
+				<label class="label">CUENTA:</label>
 			</div>
 			<div class="field-body">
 				<div class="field">
 				<p class="control">
-				<input class="input is-small has-text-centered"  type="text" name="usuario" value="<?php echo $datos['usuario']?>" pattern="[A-Z 0-9/*-+]{0,20}" maxlength="20" oninput="this.value = this.value.toLowerCase()">
+				<input class="input is-small has-text-centered"  type="text" name="usuario" value="<?php echo $datos['usuario']?>" pattern="[A-Z 0-9/*-+.]{0,20}" maxlength="20" oninput="this.value = this.value.toLowerCase()">
 				</p>
 				</div>
 			</div>
@@ -97,7 +97,7 @@
 
         <div class="field is-horizontal">
             <div class="field-label is-normal">
-                <label class="label">NOMBRE DEL USUARIO:</label>
+                <label class="label">USUARIO:</label>
             </div>
             <div class="field-body">
                 <div class="field">
@@ -219,7 +219,7 @@
 				<div class="field-body">
 					<div class="field">
 					<p class="control">
-					<input class="input is-small has-text-centered"  type="text" name="prei" value="<?php echo $datos['prei']?>" pattern="[0-9 /*-+.]{0,40}" maxlength="40" oninput="this.value = this.value.toUpperCase()">
+					<input class="input is-small has-text-centered"  type="text" name="prei" value="<?php echo $datos['prei']?>" pattern="[0-9 /*-+.]{0,20}" maxlength="20" oninput="this.value = this.value.toUpperCase()">
 					</p>
 					</div>
 				</div>

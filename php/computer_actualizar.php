@@ -4,7 +4,7 @@
 
     # ALMACENANDO DATOS #
     $serie                  =limpiar_cadena($_POST['serie']);
-    $prei                   =intval(limpiar_cadena($_POST['prei']));
+    $prei                   =limpiar_cadena($_POST['prei']);
     $nni                    =limpiar_cadena($_POST['nni']);
     $modelo                 =limpiar_cadena($_POST['modelo']);
     $nombre_equipo          =limpiar_cadena($_POST['nombre_equipo']);

@@ -33,7 +33,7 @@
 				<div class="field-body">
 					<div class="field">
 					<p class="control">
-					<input class="input is-small has-text-centered"  type="text" name="prei" pattern="[0-9 /*-+.]{0,40}" maxlength="40" oninput="this.value = this.value.toUpperCase()">
+					<input class="input is-small has-text-centered"  type="text" name="prei" pattern="[0-9 /*-+.]{0,20}" maxlength="20" oninput="this.value = this.value.toUpperCase()">
 					</p>
 					</div>
 				</div>
@@ -67,7 +67,7 @@
 
         <div class="field is-horizontal">
             <div class="field-label is-normal">
-                <label class="label">NOMBRE EQUIPO:</label>
+                <label class="label">N. EQUIPO:</label>
             </div>
             <div class="field-body">
                 <div class="field">
@@ -80,7 +80,7 @@
 
 			<div class="field is-horizontal">
 				<div class="field-label is-normal">
-					<label class="label">USUARIO:</label>
+					<label class="label">CUENTA:</label>
 				</div>
 				<div class="field-body">
 					<div class="field">
@@ -93,7 +93,7 @@
 
         <div class="field is-horizontal">
             <div class="field-label is-normal">
-                <label class="label">NOMBRE DEL USUARIO:</label>
+                <label class="label">USUARIO:</label>
             </div>
             <div class="field-body">
                 <div class="field">
@@ -176,10 +176,16 @@
             <div class="field-body">
                 <div class="field">
                 <p class="control">
-                    <select name="unidad" class="input is-small has-text-centered">
-                        <option value="H.G.S.Z. N°38">H.G.S.Z. N°38</option>
-                        <option value="O.T.A. S.J.C.">O.T.A. S.J.C.</option>                        
-                        <option value="O.T.A. S.J.C.">Sub Delegacion, La Paz</option>
+                        <select name="unidad" class="input is-small has-text-centered">
+                        <option value="H.G.S.Z. N°38">HGSZ N°38</option>
+                        <option value="H.G.S.Z. N°38">HGSZ No. 5</option> 
+                        <option value="H.G.S.Z. N°38">HGSZ + MF No. 2</option>    
+                        <option value="H.G.S.Z. N°38">HGSZ + MF No. 13</option>
+                        <option value="H.G.S.Z. N°38">HGSZ + MF No. 26</option>                        
+                        <option value="H.G.S.Z. N°38">HGSZ + MF No. 1</option>
+                        <option value="O.T.A. S.J.C.">OTA - S.J.C.</option>                        
+                        <option value="O.T.A. S.J.C.">SUBDELEGACION LA PAZ</option>
+                        <option value="O.T.A. S.J.C.">SUBDELEGACION LOS CABOS</option>
                     </select>
                 </p>
                 </div>
